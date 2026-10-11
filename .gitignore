@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# KRYUX tools: machine-generated findings, triage & test artefacts
+system_report.json
+*.tar.gz
+*.enc
+*.log
+engagement.log
+blockliste.txt
+bruteforce_report.txt
+hunt_*.json
+hunt_*.md
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
